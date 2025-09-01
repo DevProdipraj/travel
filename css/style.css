@@ -942,7 +942,11 @@ video {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-
+.Hamburger{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;

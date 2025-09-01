@@ -1,270 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <link rel="icon" type="image/svg+xml" href="#">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/svg+xml" href="#" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
     <!-- css file link here   -->
-    <link href="./css/style.css" rel="stylesheet">
-    
+    <link href="./css/style.css" rel="stylesheet" />
+
     <!-- Bootstrap file link here -->
-    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css" />
 
     <title>Travel With Us</title>
   </head>
   <body>
     <!-- header html start  -->
     <header class="sticky top-0 bg-white shadow-md">
-    <nav class="flex justify-between items-center px-3 md:container mx-auto text-lg lg:text-3xl">
-      <img src="./images/brand.svg" class="h-20 py-5 md:h-20" alt="logo">
-      <details class="md:hidden open:text-blue-500">
-        <summary class="list-none">
-          <i class="bi bi-list text-4xl font-extrabold me-5"></i>
+      <nav
+        class="flex justify-between items-center px-3 md:container mx-auto text-lg lg:text-3xl"
+      >
+        <a href="">
+          <img src="./images/brand.svg" class="h-20 py-5 md:h-20" alt="logo" />
+        </a>
+        <details class="md:hidden open:text-blue-500">
+          <summary class="list-none">
+           <img class="Hamburger" src="./images/Hamburger.png" alt="">
           </summary>
-        <div class="absolute end-0 rounded-sm grid grid-cols-1 gap-3 bg-white text-black shadow-md py-3">
-        <ul class="hover:text-white hover:bg-blue-500 px-10 py-2"><a class="no-underline">Home</a></ul>
-        <ul class="hover:text-white hover:bg-blue-500 px-10 py-2"><a class="no-underline">About</a></ul>
-        <ul class="hover:text-white hover:bg-blue-500 px-10 py-2"><a class="no-underline">Contact</a></ul>
+          <div
+            class="absolute end-0 rounded-sm grid grid-cols-1 gap-3 bg-white text-black shadow-md py-3"
+          >
+            <ul class="hover:text-white hover:bg-blue-500 px-10 py-2">
+              <a href="#" class="no-underline">Home</a>
+            </ul>
+            <ul class="hover:text-white hover:bg-blue-500 px-10 py-2">
+              <a href="#" class="no-underline">About</a>
+            </ul>
+            <ul class="hover:text-white hover:bg-blue-500 px-10 py-2">
+              <a href="#" class="no-underline">Contact</a>
+            </ul>
+          </div>
+        </details>
+        <div class="hidden md:block">
+          <a href="#" class="no-underline mx-2 text-black hover:text-blue-500"
+            >Home</a
+          >
+          <a href="#" class="no-underline mx-2 text-black hover:text-blue-500"
+            >About</a
+          >
+          <a href="#" class="no-underline mx-2 text-black hover:text-blue-500"
+            >Contact</a
+          >
         </div>
-      </details>
-      <div class="hidden md:block">
-        <a class="no-underline mx-2 text-black hover:text-blue-500">Home</a>
-        <a class="no-underline mx-2 text-black hover:text-blue-500">About</a>
-        <a class="no-underline mx-2 text-black hover:text-blue-500">Contact</a>
-      </div>
-    </nav>
+      </nav>
     </header>
 
     <!-- main section html start  -->
     <main>
-    <section class="py-10 px-4 bg-slate-900 text-white">
-      <div class="md:container mx-auto">
-        <h1 class="text-5xl md:text-7xl lg:text-7xl text-blue-400">Travel With Us</h1>
-        <p class="text-lg lg:text-2xl text-justify w-4/5 md:w-1/2 my-10">
-          Some of life’s usual rules go out of the window when you’re
-          travelling. You don’t have to set your alarm clock and you don’t have
-          to worry about ironing, washing the dishes or any of that other boring
-          grown-up stuff.
-        </p>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
-          <div class="self-center">
-            <img src="images/image.png" alt="..." class="object-cover w-full">
-          </div>
-          <div class="self-start">
-            <img src="images/image2.png" alt="..." class="object-cover w-full">
-            <img src="images/image3.png" alt="..." class="object-cover w-full mt-2">
-          </div>
-          <div class="self-end">
-            <img src="images/image4.png" alt="..." class="object-cover w-full">
-            <img src="images/image5.png" alt="..." class="object-cover w-full mt-2">
-          </div>
-          <div class="self-center pb-20">
-            <ol class="mb-10 pl-2">
-              <li class="text-lg lg:text-2xl">Try something new</li>
-              <li class="text-lg lg:text-2xl">Takes risks</li>
-              <li class="text-lg lg:text-2xl">Make connections</li>
-              <li class="text-lg lg:text-2xl">Tread lightly</li>
-              <li class="text-lg lg:text-2xl">Give something back</li>
-            </ol>
-            <img src="images/image6.png" alt="..." class="object-cover w-full mt-2">
-          </div>
-        </div>
-        <p class="text-sm">Images From <a class="underline">Freepik</a></p>
-      </div>
-    </section>
-
-    <section class="grid grid-cols-1 md:grid-cols-5 items-center text-center text-black md:container mx-auto px-4 py-10 mt-10">
-      <div class="col-span-2">
-        <h2 class="text-5xl lg:text-5xl">The Secret Of Nature</h2>
-        <p class="text-lg lg:text-[26px] text-justify my-5">
-          Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
-        </p>
-        <p class="text-lg lg:text-[20px] mt-10">
-          Images From <a class="underline">Freepik</a>
-        </p>
-        <button class="btn mb-5 bg-slate-900 text-white mt-10">
-          Learn More
-        </button>
-      </div>
-      <div class="col-span-3 p-12 bg-[url('./images/vector.png')] bg-contain bg-no-repeat bg-center">
-        <img src="images/image7.png" class="object-cover object-center" alt="image">
-      </div>
-    </section>
-
-    <section class="mt-10 px-4 py-10 bg-none md:bg-[url('./images/bg.png')] bg-cover bg-center">
-      <div class="md:container mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-0">
-          <div class="self-start">
-            <img src="images/image22.png" alt="image" class="object-cover w-full">
-            <div class="text-xl lg:text-3xl bg-slate-900 text-white px-5 py-16">
-              <img class="object-cover w-30 pb-8" src="./images/Frame.png" alt="quote">
-              <p class="text-2xl lg:text-3xl text-justify leading-loose">
-                Happiness is not at the top at the mountains but in how to climb
-                it.
-              </p>
+      <section class="py-10 px-4 bg-slate-900 text-white">
+        <div class="md:container mx-auto">
+          <h1 class="text-5xl md:text-7xl lg:text-7xl text-blue-400">
+            Travel With Us
+          </h1>
+          <p class="text-lg lg:text-2xl text-justify w-4/5 md:w-1/2 my-10">
+            Some of life’s usual rules go out of the window when you’re
+            travelling. You don’t have to set your alarm clock and you don’t
+            have to worry about ironing, washing the dishes or any of that other
+            boring grown-up stuff.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
+            <div class="self-center">
+              <img
+                src="images/image.png"
+                alt="..."
+                class="object-cover w-full"
+              />
+            </div>
+            <div class="self-start">
+              <img
+                src="images/image2.png"
+                alt="..."
+                class="object-cover w-full"
+              />
+              <img
+                src="images/image3.png"
+                alt="..."
+                class="object-cover w-full mt-2"
+              />
+            </div>
+            <div class="self-end">
+              <img
+                src="images/image4.png"
+                alt="..."
+                class="object-cover w-full"
+              />
+              <img
+                src="images/image5.png"
+                alt="..."
+                class="object-cover w-full mt-2"
+              />
+            </div>
+            <div class="self-center pb-20">
+              <ol class="mb-10 pl-2">
+                <li class="text-lg lg:text-2xl">Try something new</li>
+                <li class="text-lg lg:text-2xl">Takes risks</li>
+                <li class="text-lg lg:text-2xl">Make connections</li>
+                <li class="text-lg lg:text-2xl">Tread lightly</li>
+                <li class="text-lg lg:text-2xl">Give something back</li>
+              </ol>
+              <img
+                src="images/image6.png"
+                alt="..."
+                class="object-cover w-full mt-2"
+              />
             </div>
           </div>
-          <div class="self-start pt-10">
-            <img src="images/image8.png" alt="image" class="object-cover w-full">
-            <div class="bg-slate-200 text-black px-5 py-5">
-              <h2 class="text-3xl lg:text-4xl">About Us</h2>
-              <p class="text-lg lg:text-2xl text-justify py-5">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-                libero, maiores ratione modi ut! Laboriosam eligendi quam ipsum
-                hic, ipsam quia rem provident minus quisquam, quod pariatur
-                dolor voluptatibus sed, itaque ea commodi voluptatem sit.
+          <p class="text-sm">Images From <a class="underline">Freepik</a></p>
+        </div>
+      </section>
+
+      <section
+        class="grid grid-cols-1 md:grid-cols-5 items-center text-center text-black md:container mx-auto px-4 py-10 mt-10"
+      >
+        <div class="col-span-2">
+          <h2 class="text-5xl lg:text-5xl">The Secret Of Nature</h2>
+          <p class="text-lg lg:text-[26px] text-justify my-5">
+            Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            nullam nunc justo sagittis suscipit ultrices.
+          </p>
+          <p class="text-lg lg:text-[20px] mt-10">
+            Images From <a class="underline">Freepik</a>
+          </p>
+          <button class="btn mb-5 bg-slate-900 text-white mt-10">
+            Learn More
+          </button>
+        </div>
+        <div
+          class="col-span-3 p-12 bg-[url('./images/vector.png')] bg-contain bg-no-repeat bg-center"
+        >
+          <img
+            src="images/image7.png"
+            class="object-cover object-center"
+            alt="image"
+          />
+        </div>
+      </section>
+
+      <section
+        class="mt-10 px-4 py-10 bg-none md:bg-[url('./images/bg.png')] bg-cover bg-center"
+      >
+        <div class="md:container mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-0">
+            <div class="self-start">
+              <img
+                src="images/image22.png"
+                alt="image"
+                class="object-cover w-full"
+              />
+              <div
+                class="text-xl lg:text-3xl bg-slate-900 text-white px-5 py-16"
+              >
+                <img
+                  class="object-cover w-30 pb-8"
+                  src="./images/Frame.png"
+                  alt="quote"
+                />
+                <p class="text-2xl lg:text-3xl text-justify leading-loose">
+                  Happiness is not at the top at the mountains but in how to
+                  climb it.
+                </p>
+              </div>
+            </div>
+            <div class="self-start pt-10">
+              <img
+                src="images/image8.png"
+                alt="image"
+                class="object-cover w-full"
+              />
+              <div class="bg-slate-200 text-black px-5 py-5">
+                <h2 class="text-3xl lg:text-4xl">About Us</h2>
+                <p class="text-lg lg:text-2xl text-justify py-5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+                  libero, maiores ratione modi ut! Laboriosam eligendi quam
+                  ipsum hic, ipsam quia rem provident minus quisquam, quod
+                  pariatur dolor voluptatibus sed, itaque ea commodi voluptatem
+                  sit.
+                </p>
+                <p class="text-lg lg:text-[22px]">
+                  Images From <a class="underline">Freepik</a>
+                </p>
+                <button class="btn my-5 bg-slate-900 text-white">
+                  Learn More
+                </button>
+              </div>
+            </div>
+            <div class="self-center">
+              <img
+                src="images/image9.png"
+                alt="..."
+                class="object-cover w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="grid grid-cols-1 md:grid-cols-5 items-center text-black md:container mx-auto px-4 py-10 mt-10"
+      >
+        <div class="col-span-2 self-end">
+          <h2 class="text-5xl lg:text-5xl font-medium text-center">
+            Every traveler is unique
+          </h2>
+          <p class="text-lg lg:text-[22px] text-justify my-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae rerum accusantium, deleniti consectetur praesentium
+            fugiat!
+          </p>
+          <button class="btn mb-5 block mx-auto bg-slate-900 text-white">
+            Learn More
+          </button>
+        </div>
+        <div class="col-span-3 self-start pb-28">
+          <div
+            class="p-12 bg-[url('./images/vector.png')] bg-contain bg-no-repeat bg-center mb-26"
+          >
+            <img
+              src="images/image10.png"
+              class="object-cover object-center"
+              alt="image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="mt-10 py-10 bg-none md:bg-[url('./images/bg2.png')] bg-cover bg-center"
+      >
+        <div
+          class="md:container mx-auto grid grid-cols-1 md:grid-cols-3 items-stretch gap-5 md:gap-0 px-2 text-start text-justify"
+        >
+          <div class="md:pt-20">
+            <div class="bg-red-500 text-white p-5">
+              <h4 class="text-2xl lg:text-4xl font-medium">Nature Tours</h4>
+              <p class="text-lg lg:text-[22px] py-5">
+                Fringilla ut morbi tincidunt augue interdum velit euismod in.
+                Vel pharetra vel turpis nunc eget. Vel pretium lectus quam id
+                leo in vitae turpis massa. Nulla facilisi cras fermentum odio eu
+                feugiat pretium.
               </p>
-              <p class="text-lg lg:text-[22px]">
-                Images From <a class="underline">Freepik</a>
-              </p>
-              <button class="btn my-5 bg-slate-900 text-white">
+              <button class="btn bg-white text-black font-medium">
                 Learn More
               </button>
+              <p class="text-sm pt-3">
+                Images From <a class="underline">Freepik</a>
+              </p>
+            </div>
+            <img
+              class="object-cover w-full"
+              src="images/image11.png"
+              alt="image"
+            />
+          </div>
+          <div class="gap-5 md:gap-0">
+            <img
+              src="images/image12.png"
+              class="object-cover w-full"
+              alt="image"
+            />
+            <img
+              src="images/image13.png"
+              class="object-cover w-full"
+              alt="image"
+            />
+          </div>
+          <div class="md:pt-20">
+            <img
+              class="object-cover w-full"
+              src="images/image14.png"
+              alt="image"
+            />
+            <div class="bg-slate-100 text-black p-5">
+              <h4 class="text-2xl lg:text-4xl font-medium">Exclusive Deals</h4>
+              <p class="text-lg lg:text-[22px] py-3">
+                The entire crew deserves an unforgettable vacation. When
+                searching for the perfect accommodations, use the
+                family-friendly badge to discover hotels that provide extra
+                amenities for kids.
+              </p>
+              <button class="btn bg-red-500 text-white">View All</button>
             </div>
           </div>
-          <div class="self-center">
-            <img src="images/image9.png" alt="..." class="object-cover w-full">
+        </div>
+      </section>
+
+      <section class="mt-10 py-10 bg-white text-black text-center">
+        <div class="md:container mx-auto">
+          <h3 class="text-3xl font-medium">Travel Deals and Promotions</h3>
+          <p class="text-lg lg:text-3xl my-3">
+            Sample text. Click to select the text box. Click again or double
+            click to start editing the text.
+          </p>
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 bg-[url('./images/vector2.png')] bg-contain bg-center bg-no-repeat my-10 p-10"
+          >
+            <img
+              class="object-cover w-full h-full"
+              src="images/image15.png"
+              alt="image"
+            />
+            <div class="px-5 py-6 lg:px-6 lg:py-10 mb-5 md:mb-0 bg-slate-200">
+              <img
+                class="object-cover w-30 mb-5 lg:mb-10 mx-auto"
+                src="images/image16.png"
+                alt="image"
+              />
+              <h5 class="text-2xl lg:text-4xl">Explore The World</h5>
+              <p class="text-lg lg:text-[22px]l py-3 text-justify">
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text.
+              </p>
+            </div>
+            <img
+              class="object-cover w-full h-full"
+              src="images/image17.png"
+              alt="image"
+            />
+            <div class="px-5 py-6 lg:px-6 lg:py-10 mb-5 md:mb-0 bg-slate-200">
+              <img
+                class="object-cover w-30 mb-5 lg:mb-10 mx-auto"
+                src="images/image18.png"
+                alt="image"
+              />
+              <h5 class="text-2xl lg:text-3xl">Traveller Tours</h5>
+              <p class="text-lg lg:text-[22px] py-3 text-justify">
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text.
+              </p>
+            </div>
+            <img
+              class="object-cover w-full h-full"
+              src="images/image19.png"
+              alt="image"
+            />
+            <div class="px-5 py-6 lg:px-6 lg:py-10 mb-5 md:mb-0 bg-slate-200">
+              <img
+                class="object-cover w-30 mb-5 lg:mb-10 mx-auto"
+                src="images/image20.png"
+                alt="image"
+              />
+              <h5 class="text-2xl lg:text-3xl">Adventure Vacations</h5>
+              <p class="text-lg lg:text-[22px] py-3 text-justify">
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text.
+              </p>
+            </div>
           </div>
+          <p class="text-sm mt-5">
+            Images From <a class="underline">Unsplash</a>
+          </p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="grid grid-cols-1 md:grid-cols-5 items-center text-black md:container mx-auto px-4 py-10 mt-10">
-      <div class="col-span-2 self-end">
-        <h2 class="text-5xl lg:text-5xl font-medium text-center">Every traveler is unique</h2>
-        <p class="text-lg lg:text-[22px] text-justify my-5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          rerum accusantium, deleniti consectetur praesentium fugiat!
-        </p>
-        <button class="btn mb-5 block mx-auto bg-slate-900 text-white">
-          Learn More
-        </button>
-      </div>
-      <div class="col-span-3 self-start pb-28">
-        <div class="p-12 bg-[url('./images/vector.png')] bg-contain bg-no-repeat bg-center mb-26">
-          <img src="images/image10.png" class="object-cover   object-center" alt="image">
-        </div>
-      </div>
-    </section>
-
-    <section class="mt-10 py-10 bg-none md:bg-[url('./images/bg2.png')] bg-cover bg-center">
-      <div class="md:container mx-auto grid grid-cols-1 md:grid-cols-3 items-stretch gap-5 md:gap-0 px-2 text-start text-justify">
-        <div class="md:pt-20">
-          <div class="bg-red-500 text-white p-5">
-            <h4 class="text-2xl lg:text-4xl font-medium">Nature Tours</h4>
-            <p class="text-lg lg:text-[22px] py-5">
-              Fringilla ut morbi tincidunt augue interdum velit euismod in. Vel
-              pharetra vel turpis nunc eget. Vel pretium lectus quam id leo in
-              vitae turpis massa. Nulla facilisi cras fermentum odio eu feugiat
-              pretium.
-            </p>
-            <button class="btn bg-white text-black font-medium">
-              Learn More
-            </button>
-            <p class="text-sm pt-3">
+      <section
+        class="mt-10 py-20 bg-[url('./images/bg3.png')] bg-cover bg-center text-start text-justify px-3"
+      >
+        <div
+          class="md:container mx-auto bg-white text-black p-5 grid grid-cols-1 md:grid-cols-2 justify-center items-center text-center"
+        >
+          <div class="pb-5">
+            <img
+              src="images/image21.png"
+              alt="image"
+              class="object-cover rounded-full mx-auto mb-5"
+            />
+            <h2 class="text-4xl font-semibold">Travel With Us</h2>
+            <p class="text-sm mt-3">
               Images From <a class="underline">Freepik</a>
             </p>
           </div>
-          <img class="object-cover w-full" src="images/image11.png" alt="image">
-        </div>
-        <div class="gap-5 md:gap-0">
-          <img src="images/image12.png" class="object-cover w-full
-            " alt="image">
-          <img src="images/image13.png" class="object-cover w-full " alt="image">
-        </div>
-        <div class="md:pt-20">
-          <img class="object-cover w-full" src="images/image14.png" alt="image">
-          <div class="bg-slate-100 text-black p-5">
-            <h4 class="text-2xl lg:text-4xl font-medium">Exclusive Deals</h4>
-            <p class="text-lg lg:text-[22px] py-3">
-              The entire crew deserves an unforgettable vacation. When searching
-              for the perfect accommodations, use the family-friendly badge to
-              discover hotels that provide extra amenities for kids.
+          <div class="md:px-5 md:py-10">
+            <h6 class="text-lg lg:text-2xl font-semibold">
+              Pharetra magna ac placerat vestibulum lectus mauris ultrices. Ut
+              pharetra sit amet aliquam id.
+            </h6>
+            <p class="text-lg lg:text-[18px] my-5 text-justify">
+              Sollicitudin ac orci phasellus egestas tellus rutrum. Venenatis
+              cras sed felis eget. Amet risus nullam eget felis eget nunc. Lacus
+              vestibulum sed arcu non odio euismod. Consectetur adipiscing elit
+              duis tristique.Pharetra magna ac placerat vestibulum lectus mauris
+              ultrices.
             </p>
-            <button class="btn bg-red-500 text-white">
-              View All
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="mt-10 py-10 bg-white text-black text-center">
-      <div class="md:container mx-auto">
-        <h3 class="text-3xl font-medium">Travel Deals and Promotions</h3>
-        <p class="text-lg lg:text-3xl my-3">
-          Sample text. Click to select the text box. Click again or double click
-          to start editing the text.
-        </p>
-        <div class="grid grid-cols-1 md:grid-cols-3 bg-[url('./images/vector2.png')] bg-contain bg-center bg-no-repeat my-10 p-10">
-          <img class="object-cover w-full h-full" src="images/image15.png" alt="image">
-          <div class="px-5 py-6 lg:px-6 lg:py-10 mb-5 md:mb-0 bg-slate-200">
-            <img class="object-cover w-30 mb-5 lg:mb-10 mx-auto" src="images/image16.png" alt="image">
-            <h5 class="text-2xl lg:text-4xl">Explore The World</h5>
-            <p class="text-lg lg:text-[22px]l py-3 text-justify">
-              Sample text. Click to select the text box. Click again or double
-              click to start editing the text.
-            </p>
-          </div>
-          <img class="object-cover w-full h-full" src="images/image17.png" alt="image">
-          <div class="px-5 py-6 lg:px-6 lg:py-10 mb-5 md:mb-0 bg-slate-200">
-            <img class="object-cover w-30 mb-5 lg:mb-10 mx-auto" src="images/image18.png" alt="image">
-            <h5 class="text-2xl lg:text-3xl">Traveller Tours</h5>
-            <p class="text-lg lg:text-[22px] py-3 text-justify">
-              Sample text. Click to select the text box. Click again or double
-              click to start editing the text.
-            </p>
-          </div>
-          <img class="object-cover w-full h-full" src="images/image19.png" alt="image">
-          <div class="px-5 py-6 lg:px-6 lg:py-10 mb-5 md:mb-0 bg-slate-200">
-            <img class="object-cover w-30 mb-5 lg:mb-10 mx-auto" src="images/image20.png" alt="image">
-            <h5 class="text-2xl lg:text-3xl">Adventure Vacations</h5>
-            <p class="text-lg lg:text-[22px] py-3 text-justify">
-              Sample text. Click to select the text box. Click again or double
-              click to start editing the text.
+            <ul class="text-xl lg:text-2xl">
+              <ol>
+                Mon – Fri: 9:00 am – 8:00 pm
+              </ol>
+              <ol>
+                Sat – Sun: 9:00 am – 10 pm
+              </ol>
+            </ul>
+            <p
+              class="text-red-600 underline underline-offset-8 decoration-red-600 mt-5 mb-7 text-xl lg:text-2xl"
+            >
+              contacts@travel.com
             </p>
           </div>
         </div>
-        <p class="text-sm mt-5">Images From <a class="underline">Unsplash</a></p>
-      </div>
-    </section>
-
-    <section class="mt-10 py-20 bg-[url('./images/bg3.png')] bg-cover bg-center text-start text-justify px-3">
-      <div class="md:container mx-auto bg-white text-black p-5 grid grid-cols-1 md:grid-cols-2 justify-center items-center text-center">
-        <div class="pb-5">
-          <img src="images/image21.png" alt="image" class="object-cover rounded-full mx-auto mb-5">
-          <h2 class="text-4xl font-semibold">Travel With Us</h2>
-          <p class="text-sm mt-3">Images From <a class="underline">Freepik</a></p>
-        </div>
-        <div class="md:px-5 md:py-10">
-          <h6 class="text-lg lg:text-2xl font-semibold">
-            Pharetra magna ac placerat vestibulum lectus mauris ultrices. Ut
-            pharetra sit amet aliquam id.
-          </h6>
-          <p class="text-lg lg:text-[18px] my-5 text-justify">
-            Sollicitudin ac orci phasellus egestas tellus rutrum. Venenatis cras
-            sed felis eget. Amet risus nullam eget felis eget nunc. Lacus
-            vestibulum sed arcu non odio euismod. Consectetur adipiscing elit
-            duis tristique.Pharetra magna ac placerat vestibulum lectus mauris
-            ultrices.
-          </p>
-          <ul class="text-xl lg:text-2xl">
-          <ol>Mon – Fri: 9:00 am – 8:00 pm</ol>
-          <ol>Sat – Sun: 9:00 am – 10 pm</ol>
-          </ul>
-          <p class="text-red-600 underline underline-offset-8 decoration-red-600 mt-5 mb-7 text-xl lg:text-2xl">contacts@travel.com</p>
-        </div>
-      </div>
-    </section> 
-  </main>
-  <!-- footer section html start  -->
-  <footer class="md:container mx-auto py-10">
-    <p class="text-[28px] text-center">
-      Sample text. Click to select the Text Element.
-    </p>
-  </footer>
+      </section>
+    </main>
+    <!-- footer section html start  -->
+    <footer class="md:container mx-auto py-10">
+      <p class="text-[28px] text-center">
+        Sample text. Click to select the Text Element.
+      </p>
+    </footer>
   </body>
 </html>
